@@ -254,7 +254,7 @@ empty list:
 
 \begin{snip}{cpp}
 template<class A>
-class List { 
+class List {
     Node<A> * _head;
 public:
     List() : _head(nullptr) {} // Nil
@@ -357,7 +357,7 @@ Here's the function that converts them one way:
 and here's one that goes the other way:
 
 \src{snippet35}
-The \code{case of} statement is used for pattern matching inside
+The \code{case of} clause is used for pattern matching inside
 functions. Each pattern is followed by an arrow and the expression to be
 evaluated when the pattern matches. For instance, if you call
 \code{prodToSum} with the value:
@@ -472,7 +472,7 @@ talk about function types.
         Here's a sum type defined in Haskell:
 
         \begin{snip}{haskell}
-data Shape = Circle Float 
+data Shape = Circle Float
            | Rect Float Float
 \end{snip}
         When we want to define a function like \code{area} that acts on a
