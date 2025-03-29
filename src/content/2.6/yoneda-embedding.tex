@@ -3,14 +3,14 @@
 \lettrine[lhang=0.17]{W}{e've seen previously} that, when we fix an object $a$ in the
 category $\cat{C}$, the mapping $\cat{C}(a, -)$ is a (covariant)
 functor from $\cat{C}$ to $\Set$.
-\[x \to \cat{C}(a, x)\]
+\[x \mapsto \cat{C}(a, x)\]
 (The codomain is $\Set$ because the hom-set $\cat{C}(a, x)$ is a
 \emph{set}.) We call this mapping a hom-functor --- we have previously
 defined its action on morphisms as well.
 
 Now let's vary $a$ in this mapping. We get a new mapping that
 assigns the hom-\emph{functor} $\cat{C}(a, -)$ to any $a$.
-\[a \to \cat{C}(a, -)\]
+\[a \mapsto \cat{C}(a, -)\]
 It's a mapping of objects from category $\cat{C}$ to functors, which are
 \emph{objects} in the functor category (see the section about functor
 categories in
@@ -86,7 +86,7 @@ objects.
 
 The (contravariant) functor we have just described, the functor that
 maps objects in $\cat{C}$ to functors in $[\cat{C}, \Set]$:
-\[a \to \cat{C}(a, -)\]
+\[a \mapsto \cat{C}(a, -)\]
 defines the \newterm{Yoneda embedding}. It \emph{embeds} a category
 $\cat{C}$ (strictly speaking, the category $\cat{C}^\mathit{op}$,
 because of contravariance) inside the functor category
